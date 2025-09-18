@@ -43,7 +43,7 @@ function Landingpage() {
           src="https://digisatish.com/wp-content/uploads/2025/02/Discount-calculator.png"
         />
         <Card.Body>
-          <Card.Title className="text-center">Discount Calculator</Card.Title>
+          <Card.Title className="text-center"><u>Discount Calculator</u></Card.Title>
 
           <div className="mb-3">
             <label className="form-label">Original Price</label>
@@ -52,18 +52,18 @@ function Landingpage() {
               className="form-control"
               value={price}
               onChange={(e) => setPrice(e.target.value)}
-              placeholder="Enter original price"
+              placeholder="Enter price"
             />
           </div>
 
           <div className="mb-3">
-            <label className="form-label">Discount (%)</label>
+            <label className="form-label">Discount %</label>
             <input
               type="number"
               className="form-control"
               value={discount}
               onChange={(e) => setDiscount(e.target.value)}
-              placeholder="Enter discount percentage"
+              placeholder="Enter percentage"
             />
           </div>
 
