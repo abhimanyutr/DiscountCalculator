@@ -36,10 +36,10 @@ function Landingpage() {
        
       }}
     >
-      <Card style={{ width: "28rem" }}>
-        <Card.Img
+      <Card style={{ width: "28rem", border:"0px"}}>
+        <Card.Img 
           variant="top"
-          style={{ height: "230px", width: "100%" }}
+          style={{ height: "230px", width: "100%", borderRadius:"10px"}}
           src="https://digisatish.com/wp-content/uploads/2025/02/Discount-calculator.png"
         />
         <Card.Body>
